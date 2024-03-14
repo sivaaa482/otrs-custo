@@ -1,0 +1,12 @@
+After split outgoing mail stop:
+*******************************
+M	/opt/otrs/Kernel/System/Email.pm
+M	/opt/otrs/Kernel/Modules/AgentTicketEmail.pm
+
+Remove the signature when split the ticket:(EMBT-127)
+******************************************
+M	/opt/otrs/Kernel/Modules/AgentTicketEmail.pm
+
+M	/opt/otrs/Kernel/Output/HTML/ArticleAction/AgentTicketPhone.pm
+M	/opt/otrs/Kernel/Output/HTML/Templates/Standard/AgentTicketEmail.tt
+M	/opt/otrs/var/httpd/htdocs/js/Core.Agent.TicketEmail.js
